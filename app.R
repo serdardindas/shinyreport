@@ -18,7 +18,7 @@ ui <- dashboardPage(skin="green",
       sidebarMenu(
         menuItem("Home",tabName = "home", icon=icon("home")),
         menuItem("Sector",tabName = "sectors", icon=icon("industry")),
-        menuItem("City",tabName = "cities", icon=icon("globe-americas"))
+        menuItem("City Report",tabName = "cities", icon=icon("globe-americas"))
       )
     ),
     dashboardBody(
